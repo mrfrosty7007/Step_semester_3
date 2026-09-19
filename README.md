@@ -8,6 +8,25 @@ This branch (`main`) serves exclusively as the central documentation and daily s
 
 ---
 
+## Date: 11-09-2026
+
+**Today's Work:**
+- Worked on `feature/session_5` / `week4` / `week5` for Category C Assignment Problems (Homework):
+  - `FantasyTeamScoreMultiplier`: Direct array mutation with Captain (2.0x) and Vice-Captain (1.5x) multipliers.
+  - `DuplicatePlayerPickChecker`: Pairwise nested-loop comparison for repeated player names without Collections.
+  - `TopPerformerTracker`: Single-pass running min, max, and spread calculation without sorting.
+  - `MatchDayGridAnalyzer`: Modular 2D array analysis with reusable `rowAverage` helper and threshold check.
+  - `FantasyLeagueAutoDraftRankingEngine`: Overloaded eligibility rules, encapsulated `Player` model, and `Comparable<Player>` sorting via `Arrays.sort()`.
+- Verified test cases, boundary cases, and successful compilation on JDK 21.
+
+**Next Session Plan:**
+- Advanced OOP Concepts (Inheritance, Polymorphism, Interfaces, and Abstract Classes).
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 02-09-2026
 
 **Today's Work:**
