@@ -8,6 +8,32 @@ This branch (`main`) serves exclusively as the central documentation and daily s
 
 ---
 
+## Date: 19-09-2026
+
+**Today's Work:**
+- Created and worked on `feature/session_7` / `week7` for Week 7 — S7 OOP Fundamental (Encapsulation & Access Control).
+- Implemented and verified all 5 live-coding class practice problems in package `encapsulation.class_problems`:
+  - `PiggyBank`: Private savings state, final immutable ID, deposit/withdraw operations with overdraft prevention.
+  - `Scorecard`: Encapsulated boolean results array, controlled incremental answer recording, read-only score computation.
+  - `NameTag`: Immutable class design, final name components, constructor space-splitting for formatted nickname generation.
+  - `Locker`: Write-only security code without getters, authorization validation before PIN code modification.
+  - `AttendanceSheet`: Encapsulated student array, automated duplicate prevention, membership lookup, and count inspection.
+- Implemented and verified all 5 homework assignment problems in package `encapsulation.assignment_problems`:
+  - `Character`: Value clamping logic (0 floor to max cap), private health state, and final maximum health.
+  - `Playlist`: Defensive array copying via `Arrays.copyOf` to prevent external collection tampering.
+  - `PasswordChecker`: Immutable secret storage without password getters, dynamic strength classification based on length.
+  - `TrafficLight`: Controlled circular state transition machine (`RED` -> `GREEN` -> `YELLOW` -> `RED`) with final ID.
+  - `Cart`: Encapsulated price array, computed total aggregation on request, and item count tracking.
+- Tested and compiled all classes against JDK 21.
+
+**Next Session Plan:**
+- Advanced OOP Concepts (Inheritance, Abstract Classes, and Interfaces).
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 12-09-2026
 
 **Today's Work:**
