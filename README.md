@@ -8,6 +8,32 @@ This branch (`main`) serves exclusively as the central documentation and daily s
 
 ---
 
+## Date: 12-09-2026
+
+**Today's Work:**
+- Created and worked on `feature/session_6` / `week6` for Week 6 — S6 Classes and Objects Revision.
+- Implemented and verified all 5 live-coding class problems in package `oop.class_problems`:
+  - `PlacementRecord`: Parameterized constructor, object arrays, and structured placement formatting.
+  - `MessWallet`: Encapsulation with private balance, validation on opening balance, top-up, and overdraft prevention.
+  - `Course`: Constructor overloading and chaining via `this(...)` for theory vs lab courses.
+  - `IdCard`: Reference copying vs new object instantiation and identity comparison (`==`).
+  - `Student`: Static vs instance fields, shared college name, and static counter tracking total students.
+- Implemented and verified all 5 homework assignment problems in package `oop.assignment_problems`:
+  - `BookInventory`: Array of objects and formatted inventory entry display.
+  - `PayrollAccount`: Private fields, bonus crediting rules, percentage-based tax deduction, read-only net salary.
+  - `EmployeeProfileCreation`: Permanent vs intern constructor overloading chaining via `this(...)`.
+  - `HallTicket`: Reference aliasing, state modification through alias, and reference equality comparison.
+  - `EmployeeCompanyInfoManagement`: Shared company name and static counter tracking total employees.
+- Tested and compiled all classes against JDK 21.
+
+**Next Session Plan:**
+- Advanced OOP Concepts (Inheritance, Polymorphism, Interfaces, and Abstract Classes).
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 11-09-2026
 
 **Today's Work:**
