@@ -8,6 +8,33 @@ This branch (`main`) serves exclusively as the central documentation and daily s
 
 ---
 
+## Date: 26-09-2026
+
+**Today's Work:**
+- Created and worked on `feature/session_8` / `week8` / `week_8` for Week 8 — S8 OOP Fundamental (Inheritance, Runtime Polymorphism & Dynamic Method Dispatch).
+- Implemented and verified all 5 live-coding class practice problems in package `inheritance.class_problems` (with full interoperability in `polymorphism.class_problems`):
+  - `PaymentSystemFeeCalculation`: Abstract `PaymentMethod` base class and concrete subtypes (`CardPayment` 2%, `WalletPayment` 1%, `BankTransferPayment` 0%) with polymorphic transaction processing.
+  - `LibraryItemDueDateCalculator`: Abstract `LibraryItem` with specialized borrowing duration (`BookItem` 14 days, `DvdItem` 7 days, `MagazineItem` 3 days) and `LocalDate` calendar math.
+  - `DeliveryFeeCalculator`: Hierarchical tariff engine (`StandardDelivery`, `ExpressDelivery`, `InternationalDelivery`) with weight, distance, and encapsulated customs surcharge.
+  - `ExaminationQuestionGrader`: Unified examination grading framework (`McqQuestion`, `TrueFalseQuestion`, `EssayQuestion`) supporting exact matching and partial-credit keyword analysis.
+  - `PublicTransportFareCalculator`: Polymorphic transport fare calculation (`BusTransport` with cap, `TrainTransport` standard rate, `MetroTransport` with peak-hour multiplier).
+- Implemented and verified all 5 homework assignment problems in package `inheritance.assignment_problems` (with full interoperability in `polymorphism.assignment_problems`):
+  - `CanteenBillingCounter`: Abstract `Customer` base hierarchy eliminating conditional type-checking (`StudentCustomer` 10% discount, `StaffCustomer` 5% discount, `GuestCustomer` flat service fee).
+  - `CampusParkingChargeCalculator`: Dynamic vehicle parking calculation (`Bike` hourly rate, `Car` graduated tariff, `Truck` hourly rate with minimum charge threshold).
+  - `HostelElectricityBill`: Encapsulated room model (`SingleRoom`, `SharedRoom` with multi-occupant split, `AcRoom` with fixed overhead surcharge).
+  - `FestivalBonusCalculator`: Polymorphic payroll bonus engine (`FullTimeEmployee` 10%, `PartTimeEmployee` 5%, `InternEmployee` fixed ₹2,000 bonus).
+  - `StreamingPlanRenewalReminder`: Subscription duration models (`BasicPlan` 30 days, `StandardPlan` 90 days, `PremiumPlan` 365 days) and `LocalDate` renewal computation handling leap years.
+- Authored comprehensive reference documentation in `WEEK_8_CONCEPTS_AND_QUIZ.md` with complete answers and architectural rationale for all 10 Quiz Questions, 10 Concept Questions, and 8 Abstraction/Interface Test Questions.
+- Tested and compiled all classes against JDK 17 / JDK 21 with 100% test vector match.
+
+**Next Session Plan:**
+- Advanced Abstraction, Interfaces, Multiple Interface Inheritance, and Loose Coupling.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 19-09-2026
 
 **Today's Work:**
